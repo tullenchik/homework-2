@@ -1,0 +1,21 @@
+﻿  fail_with_func.cpp
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(4,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(23,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(24,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(27,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(33,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(46,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(54,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(69,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(70,13): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(84,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(85,20): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(91,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(96,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(101,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(108,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(111,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(113,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(125,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(131,20): warning C4018: <: несоответствие типов со знаком и без знака
+  dz2.vcxproj -> C:\Users\user\Desktop\dz2\x64\Debug\dz2.exe
