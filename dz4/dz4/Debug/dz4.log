@@ -1,0 +1,6 @@
+﻿  dz4.cpp
+  ff.cpp
+  Создание кода...
+C:\Users\user\Desktop\dz4\dz4\ff.cpp(9): warning C4715: func_y: значение возвращается не при всех путях выполнения
+C:\Users\user\Desktop\dz4\dz4\ff.cpp(21): warning C4715: func_t: значение возвращается не при всех путях выполнения
+  dz4.vcxproj -> C:\Users\user\Desktop\dz4\Debug\dz4.exe
