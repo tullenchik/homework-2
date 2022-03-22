@@ -1,0 +1,18 @@
+﻿  fail_with_func.cpp
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(3,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(22,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(23,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(29,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(34,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(41,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(51,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(52,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(59,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(60,19): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(64,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(71,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(77,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(80,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(90,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\dz2\dz2\fail_with_func.cpp(127): warning C4715: function_selection: значение возвращается не при всех путях выполнения
+  dz2.vcxproj -> C:\Users\user\Desktop\dz2\x64\Debug\dz2.exe
