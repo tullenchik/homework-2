@@ -1,3 +1,0 @@
-﻿  dz5.cpp
-C:\Users\user\Desktop\dz5\dz5\dz5.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  dz5.vcxproj -> C:\Users\user\Desktop\dz5\Debug\dz5.exe
