@@ -1,8 +1,0 @@
-﻿  dz5.cpp
-C:\Users\user\Desktop\учеба\ооп\dz5\dz5\dz5.cpp(5,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  ff.cpp
-C:\Users\user\Desktop\учеба\ооп\dz5\dz5\ff.cpp(28,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Создание кода...
-C:\Users\user\Desktop\учеба\ооп\dz5\dz5\ff.cpp(25): warning C4715: create_massiv1: значение возвращается не при всех путях выполнения
-C:\Users\user\Desktop\учеба\ооп\dz5\dz5\ff.cpp(86): warning C4715: creating_memory3: значение возвращается не при всех путях выполнения
-  dz5.vcxproj -> C:\Users\user\Desktop\учеба\ооп\dz5\Debug\dz5.exe
