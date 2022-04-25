@@ -1,0 +1,14 @@
+﻿  ff.cpp
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(3,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(10,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(26,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(27,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(32,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(33,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(39,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(46,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(87,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(95,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(100,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz6\dz6\ff.cpp(101,23): warning C4018: <: несоответствие типов со знаком и без знака
+  dz6.vcxproj -> C:\Users\user\Desktop\учеба\ооп\dz6\Debug\dz6.exe
