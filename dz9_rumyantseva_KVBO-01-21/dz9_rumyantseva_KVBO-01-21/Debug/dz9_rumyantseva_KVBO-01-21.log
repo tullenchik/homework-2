@@ -1,0 +1,4 @@
+﻿  dz9_rumyantseva_KVBO-01-21.cpp
+C:\Users\user\Desktop\учеба\ооп\dz9_rumyantseva_KVBO-01-21\dz9_rumyantseva_KVBO-01-21\Header.h(10,39): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz9_rumyantseva_KVBO-01-21\dz9_rumyantseva_KVBO-01-21\Header.h(12,60): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  dz9_rumyantseva_KVBO-01-21.vcxproj -> C:\Users\user\Desktop\учеба\ооп\dz9_rumyantseva_KVBO-01-21\Debug\dz9_rumyantseva_KVBO-01-21.exe
