@@ -1,6 +1,5 @@
 #include "ff.h"
 void Complex_number::console_output_complex_number() {
-	setlocale(0, "");
 	if (((this->real > 0) and (this->mnimoe > 0)) or ((this->real < 0) and (this->mnimoe > 0))) {
 		cout<< this->real << "+" << this->mnimoe << "*i\n";
 	}
