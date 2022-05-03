@@ -1,6 +1,5 @@
 #include "Complex.h"
 void Complexnoechislo::pervonachalnui_vuvod(Complexnoechislo n1) {//вывод комплексных чисел
-	setlocale(0, "");
 	if (((this->real > 0) and (this->mnimoe > 0)) or ((this->real < 0) and (this->mnimoe > 0))) {//если мнимое число положительное(первое комплексное число)
 		cout << "Первое комплексное число: " << this->real << "+" << this->mnimoe << "*i";
 	}
@@ -15,7 +14,6 @@ void Complexnoechislo::pervonachalnui_vuvod(Complexnoechislo n1) {//вывод компле
 	}
 }
 void Complexnoechislo::summa(Complexnoechislo n1) {//функция суммы комплексных чисел
-	setlocale(0, "");
 	cout << "\nСумма двух комплексных чисел: ";
 	cout << n1.real + this->real;//действительное число
 	if (n1.mnimoe + this->mnimoe > 0) {//если сумма двух мнительных чисел положителен, то поставим перед их суммой "+"
@@ -26,7 +24,6 @@ void Complexnoechislo::summa(Complexnoechislo n1) {//функция суммы комплексных ч
 	}
 }
 void Complexnoechislo::vuchitanie(Complexnoechislo n1) {//функция вычитания комплексных чисел
-	setlocale(0, "");
 	cout << "\nВычитание 2 комплексных чисел: "<< n1.real - this->real;//(1 вариант вычитания)действительное число
 	if (n1.mnimoe - this->mnimoe > 0) {
 		cout << "+" << n1.mnimoe - this->mnimoe << "*i\n";//если вычитания мнимых положительно, то добавим перед их суммой +
@@ -43,7 +40,6 @@ void Complexnoechislo::vuchitanie(Complexnoechislo n1) {//функция вычитания комп
 	}
 }
 void Complexnoechislo::umnojenie(Complexnoechislo n1) {//функция умножения комплексных чисел
-	setlocale(0, "");
 	cout << "\nУмножение двух комплексных чисел: ";
 	cout << (n1.mnimoe + this->mnimoe) * (-1) + n1.real * this->real;//действительное число(представляющее из себя сумму мнимых, умноженную на (-1) и произведения действительных)
 	if ((n1.real+ this->real)*(this->mnimoe + n1.mnimoe)< 0) {//мнимое число( представляющее из себя произвдения сумм действительных и мнимых чисел)
@@ -54,7 +50,6 @@ void Complexnoechislo::umnojenie(Complexnoechislo n1) {//функция умножения компл
 	}
 }
 void Complexnoechislo::delenie(Complexnoechislo n1) {//деление
-	setlocale(0, "");
 	cout << "\nДеление двух комплексных чисел: " << (this->real * n1.real + n1.mnimoe * this->mnimoe) / (this->real * this->real + this->mnimoe * this->mnimoe);//дествительное число(представляющее из себя отношения суммы произведений 2 дествительных и коэффициентов дестивтельных чисел и суммы квадратов дествительного числа и коэффициента мнимого от частного комлексного числа
 	if ((this->real * n1.mnimoe - n1.real * this->mnimoe) / (this->real * this->real + this->mnimoe * this->mnimoe) < 0) {//мнимое число (представляющее из себя (произведение второго дествительного числа и разности коэффициента мнимого первого и второго комплексного числа)/(сумма квадратов дествительного и мнимого от частного комплексного числа))
 		cout << (this->real * n1.mnimoe - n1.real * this->mnimoe) / (this->real * this->real + this->mnimoe * this->mnimoe) << "*i";//если мнимое отрицательное, то запись не изменяем, т.к. в записи уже присутствует -
@@ -71,12 +66,10 @@ void Complexnoechislo::delenie(Complexnoechislo n1) {//деление
 	}
 }
 void Complexnoechislo::modul(Complexnoechislo n1) {//функция вычисления модуля (представлет из себя квадратный корень суммы квадратов дествительного и мнимого числа)
-	setlocale(0, "");
 	cout << "\nМодуль первого комплексного числа: " << sqrt(this->real * this->real + this->mnimoe * this->mnimoe);
 	cout << "\nМодуль второго комплексного числа: " << sqrt(n1.real * n1.real + n1.mnimoe * n1.mnimoe) << endl;;
 }
 void chtenie(const char* path){
-	setlocale(0, "");
 	ifstream file;//открытие файла для чтения
 	file.open(path);//указания пути
 	if (!file.is_open()) {//если файл не открывается, выводится соответсвующее сообщение
