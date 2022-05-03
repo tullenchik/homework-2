@@ -6,13 +6,11 @@ void output_to_the_console(int* mass, unsigned size){
 	cout << endl;
 }
 void func_check(string choice){
-	setlocale(0, "");
 	if ((!((choice == "1")|| (choice == "2") || (choice == "3") || (choice == "4") || (choice == "5") || (choice == "6") || (choice == "7") || (choice == "8") || (choice == "9") || (choice == "10"))) || (!cin)){
 		cout << "Вы ввели недопустимое значение! Попробуйте снова\n";
 	}
 }
 void menu_output(int x){
-	setlocale(0, "");
 	cout << "\nПрограмма: обработка массива\nИзначально массив заполнен нулями";
 	cout << "\nВыберете, какую функцию вы хотите выбрать\n1)Заполнить рандомными значениями";
 	cout << "\n2)Заполнить значениями с клавиатуры\n3)Сделать все значения положительными";
@@ -27,7 +25,6 @@ void random_values(int* arr, unsigned size){
 	}
 }
 void manual_input(int* arr, unsigned size) {
-	setlocale(0, "");
 	cout << "\nЗаполните массив с клавиатуры:\n";
 	for (int i = 0; i < size; i++) {
 		cin >> arr[i];
@@ -48,7 +45,6 @@ void negative_values(int* arr, unsigned size){
 	}
 }
 void indentical_elements(int* arr, unsigned size) {
-	setlocale(0, "");
 	double a;
 	cout << "\nВведите элемент, на который вы хотите заменить все элементы в массиве:\n";
 	cin >> a;
@@ -57,7 +53,6 @@ void indentical_elements(int* arr, unsigned size) {
 	}
 }
 void multiplication(int* arr, unsigned size) {
-	setlocale(0, "");
 	double a;
 	cout << "\nВведите число, на которое вы хотете умножить все элементы массива:\n";
 	cin >> a;
