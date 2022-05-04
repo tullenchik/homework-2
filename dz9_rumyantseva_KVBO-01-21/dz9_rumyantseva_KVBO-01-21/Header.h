@@ -3,15 +3,17 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
+
 class Property {
 protected:
 	int worth;
 public:
 	Property(double propertyWorth) :worth(propertyWorth) {}
-	virtual double tax() { return 0; }
+	virtual double tax() = 0;
 	virtual void put_the_worth(double worth1) { this->worth = worth1; }
 	virtual double retrn_the_worth() { return this->worth; }
 };
+
 class Apartment : public Property {
 public:
 	Apartment(double apartmentWorth) :Property(apartmentWorth) {}
