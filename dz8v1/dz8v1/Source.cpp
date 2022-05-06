@@ -1,5 +1,6 @@
 #include "Header.h"
 void menu() {
+	setlocale(LC_ALL, "rus");
 	cout << "Меню.\n1.Добавить нового студента в картотеку\n2.Удалить студента из картотеки\n3.Отсортировать картотеку по имени\n4.Отсортировать картотеку по фамилии\n5.Отсортировать картотеку по курсу\n6.Отсортировать картотеку по среднему баллу\n7.Вывести картотеку в консоль\n8.Выход из программы\nВведите пункт меню, который вы хотите выбрать:";
 }
 void Student::getName(string name) { this->name = name; }
@@ -27,6 +28,7 @@ int calculate_size_vector(vector<Student>& arr) {
 	return lenght;
 }
 void delete_Student_in_kartoteka(vector<Student>& arr, int number) {
+	setlocale(LC_ALL, "rus");
 	if (calculate_size_vector(arr) < number) {
 		cout << "\nВы ввели неправильное значение!\n";
 	}
@@ -49,10 +51,12 @@ Student& Student::operator=(const Student& i)
 	return *this;
 }
 ostream& operator<<(ostream& os, const Student& arr) {
+	setlocale(LC_ALL, "rus");
 	os << "\nИмя студента(ки): " << arr.name <<" Фамилия студента(ки): " << arr.surname <<" Курс, на котором учится студент(ка): " << arr.course << " Средний балл студента(ки): " << arr.raiting;
 	return os;
 }
 istream& operator>>(istream& is,  Student& arr) {
+	setlocale(LC_ALL, "rus");
 	cout << "\nИмя студента(ки): ";
 	is >> arr.name;
 	cout << "\nФамилия студента(ки): ";
@@ -75,6 +79,7 @@ istream& operator>>(istream& is,  Student& arr) {
 	return is;
 }
 void funcchoice(vector<Student>& arr,string choice) {
+	setlocale(LC_ALL, "rus");
 	if (choice == "1") {
 		arr.push_back(addStudent());
 		cout << "\nНовый студент создан\n";
