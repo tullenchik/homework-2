@@ -1,0 +1,20 @@
+﻿  dz12_rumyantseva_KVBO0121.cpp
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121.cpp(6,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\Header.h(9,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121.cpp(26): message : выполняется компиляция ссылки на экземпляр шаблон функции "void sorting_by_inserts<int>(T *,unsigned int)"
+          with
+          [
+              T=int
+          ]
+  ff.cpp
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(3,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(4,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(9,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(10,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(17,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(25,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(69,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(74,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\dz12_rumyantseva_KVBO0121\ff.cpp(75,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  dz12_rumyantseva_KVBO0121.vcxproj -> C:\Users\user\Desktop\учеба\ооп\dz12_rumyantseva_KVBO0121\Debug\dz12_rumyantseva_KVBO0121.exe
