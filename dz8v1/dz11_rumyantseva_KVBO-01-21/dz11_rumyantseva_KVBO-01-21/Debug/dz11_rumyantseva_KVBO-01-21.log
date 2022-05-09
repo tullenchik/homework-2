@@ -1,7 +1,0 @@
-﻿  Source.cpp
-C:\Users\user\Desktop\учеба\ооп\dz11_rumyantseva_KVBO-01-21\dz11_rumyantseva_KVBO-01-21\Source.cpp(57,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\user\Desktop\учеба\ооп\dz11_rumyantseva_KVBO-01-21\dz11_rumyantseva_KVBO-01-21\Source.cpp(64,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  dz11_rumyantseva_KVBO-01-21.cpp
-C:\Users\user\Desktop\учеба\ооп\dz11_rumyantseva_KVBO-01-21\dz11_rumyantseva_KVBO-01-21\dz11_rumyantseva_KVBO-01-21.cpp(6,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Создание кода...
-  dz11_rumyantseva_KVBO-01-21.vcxproj -> C:\Users\user\Desktop\учеба\ооп\dz11_rumyantseva_KVBO-01-21\Debug\dz11_rumyantseva_KVBO-01-21.exe
